@@ -2,5 +2,6 @@ include README.md
 include LICENSE.md
 recursive-include VCA/static *.js *.css *.map *.png *.ico *.eot *.svg *.ttf *.woff *.woff2
 recursive-include VCA/locale *.mo
+recursive-include VCA/api *.py
 global-exclude __pycache__
 global-exclude *.py[co]
