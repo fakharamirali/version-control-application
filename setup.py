@@ -29,6 +29,6 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     include_package_data=True,
-    install_requires=["django>=4.2", 'djangorestframework>=3.14'],
+    install_requires=["django>=3.2", 'djangorestframework>=3'],
     python_requires=">=3.8",
 )
