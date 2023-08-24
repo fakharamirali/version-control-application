@@ -21,7 +21,6 @@ class RedirectToVersionDBRouter:
         if db == "version":
             if hints.get("model") in models.main_models:
                 return True
-            return False
         elif db == "default":
             if hints.get("model") in models.main_models:
                 return False
