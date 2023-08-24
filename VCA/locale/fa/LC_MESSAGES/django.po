@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-23 15:57+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\VCA\admin.py:12
+msgid "Is Deprecated"
+msgstr ""
+
+#: .\VCA\admin.py:17
+msgid "Yes"
+msgstr "بله"
+
+#: .\VCA\admin.py:18
+msgid "No"
+msgstr "خیر"
+
+#: .\VCA\admin.py:54 .\VCA\admin.py:72 .\VCA\admin.py:114 .\VCA\admin.py:119
+#: .\VCA\models.py:81
+msgid "Details"
+msgstr "جزئیات"
+
+#: .\VCA\admin.py:58
+msgid "Important URLs"
+msgstr "آدرس های مهم"
+
+#: .\VCA\admin.py:68
+msgid "Control Publish"
+msgstr "کنترل انتشار"
+
+#: .\VCA\admin.py:73 .\VCA\admin.py:120
+msgid "Other"
+msgstr "دیگر"
+
+#: .\VCA\admin.py:115 .\VCA\models.py:160
+msgid "Application File"
+msgstr "فایل اپلیکیشن"
+
+#: .\VCA\admin.py:121 .\VCA\models.py:288
+msgid "Dependency"
+msgstr "وابستگی"
+
+#: .\VCA\apps.py:8
+msgid "Version Control Application"
+msgstr "اپلیکیشن کنترل نسخه"
+
+#: .\VCA\mixins.py:95
+msgid "Please first register your api view"
+msgstr "لطفا اول ویو خود را ثبت کنید"
+
+#: .\VCA\mixins.py:101
+msgid "Not Registered"
+msgstr "ثبت نشده"
+
+#: .\VCA\models.py:35 .\VCA\models.py:48
+msgid "Deprecated At"
+msgstr ""
+
+#: .\VCA\models.py:52
+msgid "Deprecated"
+msgstr "منقضی شده"
+
+#: .\VCA\models.py:57
+msgid "Deprecate"
+msgstr "منقضی کردن"
+
+#: .\VCA\models.py:65
+msgid "Republish"
+msgstr "انتشار مجدد"
+
+#: .\VCA\models.py:76
+msgid "Version Id"
+msgstr "شماره نسخه"
+
+#: .\VCA\models.py:77
+msgid "Version Name"
+msgstr "نام نسخه"
+
+#: .\VCA\models.py:79
+msgid "Name"
+msgstr "نام"
+
+#: .\VCA\models.py:80
+msgid "Added Feature"
+msgstr ""
+
+#: .\VCA\models.py:94
+msgid "Previous Versions"
+msgstr "نسخه های قبلی"
+
+#: .\VCA\models.py:100
+msgid "Incompatible Previous version"
+msgstr "نسخه های نامنبطق قبلی"
+
+#: .\VCA\models.py:148
+msgid "Coming Soon"
+msgstr "به زودی"
+
+#: .\VCA\models.py:156
+msgid "Application Version"
+msgstr "نسخه نرم افزار"
+
+#: .\VCA\models.py:157
+msgid "Application Versions"
+msgstr "نسخه‌ های نرم افزار"
+
+#: .\VCA\models.py:163
+msgid "Base"
+msgstr "پایه"
+
+#: .\VCA\models.py:185 .\VCA\models.py:224
+msgid "Website Version"
+msgstr "نسخه وبسایت"
+
+#: .\VCA\models.py:186
+msgid "Website Versions"
+msgstr "نسخه های وبسایت"
+
+#: .\VCA\models.py:188
+msgid "Weblog Address"
+msgstr "آدرس وبلاگ"
+
+#: .\VCA\models.py:190
+msgid "Panel Address"
+msgstr "آدرس پنل"
+
+#: .\VCA\models.py:192
+msgid "Login Address"
+msgstr "آدرس صفحه ورود"
+
+#: .\VCA\models.py:194
+msgid "Register Address"
+msgstr "آدرس صفحه ثبت نام"
+
+#: .\VCA\models.py:196
+msgid "API Prefix"
+msgstr "پیشوند API"
+
+#: .\VCA\models.py:220
+msgid "Website View Version"
+msgstr "نسخه ویو وبسایت"
+
+#: .\VCA\models.py:221
+msgid "Website View Versions"
+msgstr "نسخه های ویو های وبسایت"
+
+#: .\VCA\models.py:225
+msgid "View Code"
+msgstr "کد ویو"
+
+#: .\VCA\models.py:226
+msgid "View Name"
+msgstr "نام ویو"
+
+#: .\VCA\models.py:227
+msgid "View Url"
+msgstr "آدرس ویو"
+
+#: .\VCA\models.py:228
+msgid "Absolute View Url"
+msgstr "آدرس مطلق ویو"
+
+#: .\VCA\models.py:231
+msgid "Is API"
+msgstr "آیا API است"
+
+#: .\VCA\models.py:233
+msgid "Update"
+msgstr "به روزرسانی"
+
+#: .\VCA\models.py:289
+msgid "Dependencies"
+msgstr "وابستگی ها"
+
+#: .\VCA\validators.py:10 .\VCA\validators.py:13
+msgid "Your path is not started with '/'"
+msgstr "مسیر شما با '/' شروع نشده"

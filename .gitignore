@@ -1,0 +1,8 @@
+*
+!VCA
+!VCA/**/*
+!setup.py
+!/LICENSE
+!README.md
+!requirements.txt
+__pycache__

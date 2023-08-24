@@ -1,0 +1,2 @@
+class NotRegisteredWarning(Warning):
+    pass
