@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-23 15:57+0430\n"
+"POT-Creation-Date: 2023-08-24 12:46+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: .\VCA\admin.py:12
 msgid "Is Deprecated"
 msgstr ""
@@ -57,16 +58,20 @@ msgstr ""
 msgid "Version Control Application"
 msgstr ""
 
-#: .\VCA\mixins.py:95
+#: .\VCA\docs.py:3
+msgid "Register your view in Django Admin"
+msgstr ""
+
+#: .\VCA\mixins.py:96
 msgid "Please first register your api view"
 msgstr ""
 
-#: .\VCA\mixins.py:101
+#: .\VCA\mixins.py:102
 msgid "Not Registered"
 msgstr ""
 
 #: .\VCA\models.py:35 .\VCA\models.py:48
-msgid "Deprecated At"
+msgid "Deprecate Date"
 msgstr ""
 
 #: .\VCA\models.py:52
@@ -94,7 +99,7 @@ msgid "Name"
 msgstr ""
 
 #: .\VCA\models.py:80
-msgid "Added Feature"
+msgid "Added Features"
 msgstr ""
 
 #: .\VCA\models.py:94
