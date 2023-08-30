@@ -75,7 +75,7 @@ class BaseVersion(DepreciableObjectMixin, models.Model):
     
     version_id = models.PositiveSmallIntegerField(_("Version Id"), primary_key=True)
     version_name = models.CharField(_("Version Name"), max_length=255, unique=True, null=False,
-                                    validators=(RegexValidator(r'\d+\.\d+\.\d+'),))
+                                    validators=(RegexValidator(r'^\d+\.\d+\.\d+$'),))
     name = models.CharField(_("Name"), max_length=255)
     added_feature = models.TextField(_("Added Features"))
     details = models.TextField(_("Details"))
