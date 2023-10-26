@@ -69,7 +69,6 @@ class DepreciableObjectMixin(models.Model):
 
 class BaseVersion(DepreciableObjectMixin, models.Model):
     class Meta:
-        db_tablespace = "version"
         abstract = True
         ordering = ('version_id',)
     
@@ -152,7 +151,6 @@ class GraphAsyncVersion(DepreciableObjectMixin, models.Model):
 
 class AppVersion(BaseVersion):
     class Meta:
-        db_tablespace = "version"
         verbose_name = _("Application Version")
         verbose_name_plural = _("Application Versions")
         ordering = ('version_id',)
@@ -180,7 +178,6 @@ class AppVersion(BaseVersion):
 
 class WebVersion(GraphAsyncVersion, BaseVersion):
     class Meta:
-        db_tablespace = 'version'
         ordering = ('version_id',)
         verbose_name = _("Website Version")
         verbose_name_plural = _("Website Versions")
@@ -216,7 +213,6 @@ class WebVersion(GraphAsyncVersion, BaseVersion):
 
 class WebAPI(DepreciableObjectMixin, models.Model):
     class Meta:
-        db_tablespace = 'version'
         verbose_name = _("Website View Version")
         verbose_name_plural = _("Website View Versions")
     
@@ -284,7 +280,6 @@ class WebAPI(DepreciableObjectMixin, models.Model):
 
 class WebAPIRequiredByApp(models.Model):
     class Meta:
-        db_tablespace = 'version'
         verbose_name = _("Dependency")
         verbose_name_plural = _("Dependencies")
     
