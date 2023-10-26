@@ -6,6 +6,3 @@ class VcaConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
     name = "VCA"
     verbose_name = _("Version Control Application")
-    
-    def ready(self):
-        from .checks import check_using_db_router
