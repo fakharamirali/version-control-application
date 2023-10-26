@@ -69,7 +69,6 @@ class Migration(migrations.Migration):
                 "verbose_name": "Application Version",
                 "verbose_name_plural": "Application Versions",
                 "ordering": ("version_id",),
-                "db_tablespace": "version",
             },
         ),
         migrations.CreateModel(
@@ -152,7 +151,6 @@ class Migration(migrations.Migration):
             options={
                 "verbose_name": "Website View Version",
                 "verbose_name_plural": "Website View Versions",
-                "db_tablespace": "version",
             },
         ),
         migrations.CreateModel(
@@ -289,7 +287,6 @@ class Migration(migrations.Migration):
                 "verbose_name": "Website Version",
                 "verbose_name_plural": "Website Versions",
                 "ordering": ("version_id",),
-                "db_tablespace": "version",
             },
         ),
         migrations.CreateModel(
@@ -320,7 +317,6 @@ class Migration(migrations.Migration):
             options={
                 "verbose_name": "Dependency",
                 "verbose_name_plural": "Dependencies",
-                "db_tablespace": "version",
             },
         ),
         migrations.AddField(

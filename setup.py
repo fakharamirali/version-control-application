@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='VCA',
-    version='1.0.4',
+    version='1.0.3',
     packages=find_packages(),
     url='https://github.com/fakharamirali/version-control-application.git',
     license='MIT',
